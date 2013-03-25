@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 build
 build.log
 tmp
 ._*
 .DS_Store
+=======
+# Build folder and log file
+build/
+build.log
+>>>>>>> c570e2d26c9d9f2a40f9827d893dd13d70b01278
