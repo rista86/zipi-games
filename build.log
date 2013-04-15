@@ -5,7 +5,7 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.016000 seconds on emulator to get ready
+[DEBUG] waited 0.015000 seconds on emulator to get ready
 [DEBUG] com.zipi.games installed? False
 [INFO] Copying CommonJS modules...
 [INFO] Copying project resources..
@@ -16,8 +16,8 @@ Logfile initialized
 [TRACE] COPYING CREATED FILE: D:\Appcelerator Titanium Apps\zipi-games\Resources\android\zipigames.png => D:\Appcelerator Titanium Apps\zipi-games\build\android\bin\assets\Resources\zipigames.png
 [TRACE] COPYING CREATED FILE: D:\Appcelerator Titanium Apps\zipi-games\Resources\app.js => D:\Appcelerator Titanium Apps\zipi-games\build\android\bin\assets\Resources\app.js
 [TRACE] COPYING CREATED FILE: D:\Appcelerator Titanium Apps\zipi-games\Resources\bg.jpg => D:\Appcelerator Titanium Apps\zipi-games\build\android\bin\assets\Resources\bg.jpg
-[TRACE] COPYING CREATED FILE: D:\Appcelerator Titanium Apps\zipi-games\Resources\game\game.js => D:\Appcelerator Titanium Apps\zipi-games\build\android\bin\assets\Resources\game\game.js
-[TRACE] COPYING CREATED FILE: D:\Appcelerator Titanium Apps\zipi-games\Resources\game\view\firstpage.js => D:\Appcelerator Titanium Apps\zipi-games\build\android\bin\assets\Resources\game\view\firstpage.js
+[TRACE] COPYING CREATED FILE: D:\Appcelerator Titanium Apps\zipi-games\Resources\game\GameClass.js => D:\Appcelerator Titanium Apps\zipi-games\build\android\bin\assets\Resources\game\GameClass.js
+[TRACE] COPYING CREATED FILE: D:\Appcelerator Titanium Apps\zipi-games\Resources\game\view\FirstpageClass.js => D:\Appcelerator Titanium Apps\zipi-games\build\android\bin\assets\Resources\game\view\FirstpageClass.js
 [TRACE] COPYING CREATED FILE: D:\Appcelerator Titanium Apps\zipi-games\Resources\images\Monster.png => D:\Appcelerator Titanium Apps\zipi-games\build\android\bin\assets\Resources\images\Monster.png
 [TRACE] COPYING CREATED FILE: D:\Appcelerator Titanium Apps\zipi-games\Resources\images\Nasa.png => D:\Appcelerator Titanium Apps\zipi-games\build\android\bin\assets\Resources\images\Nasa.png
 [TRACE] COPYING CREATED FILE: D:\Appcelerator Titanium Apps\zipi-games\Resources\images\Netscape.png => D:\Appcelerator Titanium Apps\zipi-games\build\android\bin\assets\Resources\images\Netscape.png
@@ -72,8 +72,8 @@ Logfile initialized
 [INFO] Compiling Android Resources... This could take some time
 [DEBUG] Android classes.dex built
 [DEBUG] creating unsigned apk: D:\Appcelerator Titanium Apps\zipi-games\build\android\bin\app-unsigned.apk
-[DEBUG] from resource zip => assets/Resources/game/view/firstpage.js
-[DEBUG] from resource zip => assets/Resources/game/game.js
+[DEBUG] from resource zip => assets/Resources/game/view/FirstpageClass.js
+[DEBUG] from resource zip => assets/Resources/game/GameClass.js
 [DEBUG] from resource zip => assets/Resources/images/Monster.png
 [DEBUG] from resource zip => assets/Resources/images/Nasa.png
 [DEBUG] from resource zip => assets/Resources/images/Netscape.png
@@ -144,6 +144,6 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.016000 seconds on emulator to get ready
+[DEBUG] waited 0.061000 seconds on emulator to get ready
 [INFO] Installing application on device
 [INFO] Application installed. Launch from drawer on Home Screen
