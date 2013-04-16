@@ -1,11 +1,12 @@
 function GameClass(){
-	var FirstPage = require('./view/FirstpageClass');
+	var GameDatabaseModel = require("./mode/GameDatabaseModel");
+	var FirstPageView = require('./view/firstPageView');
 	
 	var game = this;
 	
-	game.start = function(){
-		game.firstPage = new FirstPage();
-		game.firstPage.start();
+	game.open = function(){
+		game.firstPage = new FirstPageView();
+		game.firstPage.open();
 	}
 	
 	return game;
